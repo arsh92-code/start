@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+span.name {
+    color: #f06292;
+}
+
+span.role {
+    color: #00bcd4;
+}
+
+button {
+    background: linear-gradient(45deg, #f06292, #00bcd4);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #00bcd4, #f06292);
+}
+
+#callStatus {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
